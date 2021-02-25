@@ -43,7 +43,7 @@ export default function RequesterDetail() {
             </a>
           </div>
         </div>
-        <div className="rCard__row">
+        <div className="rCard__row rCard__row--full">
           <label className="rCard__label">Description</label>
           <div className="rCard__value">{props.description}</div>
         </div>

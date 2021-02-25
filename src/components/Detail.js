@@ -29,6 +29,10 @@ export default function Detail() {
               <ApproverDetail />
             </div>
           </div>
+          <div className="card__cta card__cta--xs">
+            <button className="card__button card__button--success">Approve</button>
+            <button className="card__button card__button--danger">Deny</button>
+          </div>
         </div>
       }}
     </RequestConsumer>
